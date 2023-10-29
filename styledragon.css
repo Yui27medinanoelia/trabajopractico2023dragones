@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(108, 178, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back {
+padding: 32px 0;
+background-color: rgb(36, 61, 170);
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: azure;
+    display: block;
+
+}
+
+.menu .navbar ul li a:hover{
+    color: rgb(127, 216, 232);
+
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;}
+aside {
+    flex: 0 0 25%;}
+
+#menu{
+    display: none;
+}
+.menu-icono {
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display:none
+}
+
+@media(max-width: 991px){
+    .menu {padding: 30px}
+
+
+    .menu label{
+        display: initial;
+    }
+
+
+.back {
+    padding: 40px 0;
+
+}
+
+.menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(88, 112, 218);
+    display: none;
+}
+
+.menu .navbar ul li{
+width: 100%;
+}
+
+#menu:checked ~ .navbar{ 
+    display: initial;
+}
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+aside {
+    flex: 0 0 25%; 
+    width: 25%;
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"new rocker"
+}
+.Fondo{
+    background-color: rgb(66, 78, 155);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 90px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    font-size: 25px;
+}
+
+.fb{
+    background-color: rgb(65, 100, 226);
+    padding: 4px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.ins{
+    background-color: rgb(101, 145, 178);
+    padding: 4px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.tw{
+    background-color: rgb(41, 41, 41);
+    padding: 4px;
+    border-radius: 50px;
+    color: white;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    max-width: 100px;
+}
+
+
+.despedida{
+    font-size: 30px;
+    color: azure;
+    font-family: 'New Rocker', 'cursive';
+}
+
+.redes {
+    margin-top: 10px;
+}
+
+.redes span{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.secciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.secciones h2{
+    font-size: 25px;
+}
+
+.secciones a {
+    display: block;
+    color: rgb(66, 122, 155);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.secciones div{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+div h2{
+    color: rgb(21, 20, 20);
+    padding: 50px 0;
+}
+a{
+    color: rgb(101, 145, 178);
+    text-decoration: none;
+    padding: 12px;
+}
+form{
+ display: flex; 
+ flex-direction: column;
+ gap: 10px;
+}
+input{
+    background: white;
+    border: solid 2px white;
+    padding: 7px;
+
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: firebrick;
+    padding-top: 20px;
+}
+
+button{
+    padding: 7px;
+    background-color: #9d81bc;
+    color: rgb(249, 249, 249);
+    font-size: 18px;
+}
+.Derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #77569c;
+    color: white;
+    flex-direction: column;
+}
+hr {
+    border: 3px solid rgb(83, 212, 238);
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    
+    .redes {
+        margin-top: 20px;
+    }
+    
+    .secciones {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
